@@ -7,13 +7,13 @@ namespace EcomSol.Db.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class Initialiazed : IMigrationMetadata
+    public sealed partial class Initial : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Initialiazed));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Initial));
         
         string IMigrationMetadata.Id
         {
-            get { return "202406141051139_Initialiazed"; }
+            get { return "202406160825555_Initial"; }
         }
         
         string IMigrationMetadata.Source

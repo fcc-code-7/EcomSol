@@ -52,9 +52,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ESolContext.cs" />
-    <Compile Include="Migrations\202406141051139_Initialiazed.cs" />
-    <Compile Include="Migrations\202406141051139_Initialiazed.designer.cs">
-      <DependentUpon>202406141051139_Initialiazed.cs</DependentUpon>
+    <Compile Include="Migrations\202406160825555_Initial.cs" />
+    <Compile Include="Migrations\202406160825555_Initial.Designer.cs">
+      <DependentUpon>202406160825555_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -70,8 +70,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202406141051139_Initialiazed.resx">
-      <DependentUpon>202406141051139_Initialiazed.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202406160825555_Initial.resx">
+      <DependentUpon>202406160825555_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

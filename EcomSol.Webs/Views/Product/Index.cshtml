@@ -1,0 +1,20 @@
+﻿@model IEnumerable<EcomSol.Entities.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div id="message_box">
+    @{
+        Html.RenderPartial("Delete");
+    }
+</div>
+<div id="table-container">
+    @{ 
+        Html.RenderPartial("ProduuctTable");
+    }
+</div>
+<div id="action-container">
+   
+</div>
+
